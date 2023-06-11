@@ -17,10 +17,10 @@ Note as well that this means the extension is limited by the launches listed in 
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/username-highlighter.git`
+1. Clone this repository: `https://github.com/emilonpt/HN_YC_Alumni_Highlighter`
 2. Navigate to `chrome://extensions/` in Chrome.
 3. Enable Developer mode (toggle switch at the top right).
-4. Click "Load unpacked" and select the `username-highlighter` directory.
+4. Click "Load unpacked" and select the `HN_YC_Alumni_Highlighter` directory.
 
 ## Usage
 
