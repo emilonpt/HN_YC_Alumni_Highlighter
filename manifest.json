@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "HN Orange YC Alumni",
+    "version": "1.0",
+    "description": "Changes colour of YC Alumni to orange in Hacker News",
+    "content_scripts": [
+      {
+        "matches": ["https://news.ycombinator.com/*"],
+        "css": ["styles.css"],
+        "js": ["script.js"]
+      }
+    ],
+    "permissions": [
+      "https://gist.githubusercontent.com/emilonpt/*"
+  ]
+  }
