@@ -1,6 +1,7 @@
 ![Logo](logo.png)
 
-# Hacker News YC Alumni highlighter
+# Hacker News YCombinator Alumni username highlighter
+## Changes colour of YC Alumni to orange in HN
 
 This browser extension (tested in Chrome) changes the color of YC Alumni usernames on Hacker News, replicating one of the more trivial YC alumni perks.
 
