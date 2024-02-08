@@ -27,9 +27,20 @@ def get_usernames_from_page(url):
     return usernames
 
 def save_usernames_to_file(usernames, filename):
-    with open(filename, 'w') as file:
+    # Read existing usernames from the file
+    existing_usernames = set()
+    try:
+        with open(filename, 'r') as file:
+            existing_usernames = set(file.read().splitlines())
+    except FileNotFoundError:
+        # If the file doesn't exist, it will be created later
+        pass
+
+    # Append new usernames to the file
+    with open(filename, 'a') as file:
         for username in usernames:
-            file.write(username + '\n')
+            if username not in existing_usernames:
+                file.write(username + '\n')
 
 def main():
     url = 'https://news.ycombinator.com/launches'  # starting point
