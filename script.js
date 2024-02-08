@@ -7,7 +7,7 @@ function changeColor(usernames){
   })}
 
 
-let url = 'https://gist.githubusercontent.com/emilonpt/4042c34b5214eadd6d875c23c16f2838/raw/efe121e7ac566205c0ae044d8b49f2a90f5981dd/usernames.txt'; // replace with your actual URL
+let url = 'https://gist.githubusercontent.com/emilonpt/4042c34b5214eadd6d875c23c16f2838/raw/usernames.txt'; // replace with your actual URL
 
 fetch(url)
     .then(response => response.text())
